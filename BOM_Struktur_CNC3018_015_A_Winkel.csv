@@ -1,0 +1,6 @@
+Position (Struktur-Index),Artikel-ID,Benennung,Werkstoff,Rohling/Halbzeug,Preis,Menge
+'1,CNC3018_015_A,Winkel,aluminum,-,0.000000,1
+'1.1,CNC3018_008_B,Winkel,aluminum,-,0.000000,1
+'1.2,CNC3018_014_B,M5-Scheibe,aluminum,-,0.000000,2
+'1.4,CNC3018_013_B,M5x10-Schraube,aluminum,-,0.000000,2
+'1.6,CNC3018_012_B,M5_Nuss,aluminum,-,0.000000,1

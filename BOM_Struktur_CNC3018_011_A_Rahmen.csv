@@ -1,0 +1,13 @@
+Position (Struktur-Index),Artikel-ID,Benennung,Werkstoff,Rohling/Halbzeug,Preis,Menge
+'1,CNC3018_011_A,Rahmen,aluminum,-,0.000000,1
+'1.1,CNC3018_003_B,Profil_20x20x360,aluminum,-,0.000000,5
+'1.2,CNC3018_002_B,Profil_20x20x320,aluminum,-,0.000000,2
+'1.6,CNC3018_004_B,Profil_20x20x220,aluminum,-,0.000000,2
+'1.10,CNC3018_015_A,Winkel,aluminum,-,0.000000,14
+'1.10.1,CNC3018_008_B,Winkel,aluminum,-,0.000000,14
+'1.10.2,CNC3018_014_B,M5-Scheibe,aluminum,-,0.000000,28
+'1.10.4,CNC3018_013_B,M5x10-Schraube,aluminum,-,0.000000,32
+'1.10.6,CNC3018_012_B,M5_Nuss,aluminum,-,0.000000,28
+'1.24,CNC3018_021_A,Winkelbaugruppe,aluminum,-,0.000000,2
+'1.24.1,CNC3018_009_B,Stuetze,aluminum,-,0.000000,2
+'1.24.4,CNC3018_018_B,M5-Nutenstein,aluminum,-,0.000000,4

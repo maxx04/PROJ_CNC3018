@@ -1,0 +1,102 @@
+{
+    "Configuration": {
+        "Version": "1.1",
+        "CreatedBy": "maxx",
+        "CreationDate": "2026-08-11"
+    },
+    "ProjectMetadata": {
+        "ProjectName": "CNC3018",
+        "FreeCADVersion": "1.1"
+    },
+    "Entities": {
+        "P": {
+            "Label": "P - Einzelteil (Part)",
+            "FreeCADType": "PartDesign::Body",
+            "Prefix": "BODY",
+            "Properties": {
+                "Bezeichnung": {
+                    "Type": "App::PropertyString",
+                    "Category": "FCProject_PDM",
+                    "Default": "Einzelteil"
+                },
+                "Preis": {
+                    "Type": "App::PropertyFloat",
+                    "Category": "FCProject_PDM",
+                    "Default": 0.0
+                }
+            }
+        },
+        "A": {
+            "Label": "A - Baugruppe (Assembly)",
+            "FreeCADType": "Assembly::AssemblyObject",
+            "Prefix": "ASM",
+            "Properties": {
+                "Bezeichnung": {
+                    "Type": "App::PropertyString",
+                    "Category": "FCProject_PDM",
+                    "Default": "Baugruppe"
+                },
+                "Preis": {
+                    "Type": "App::PropertyFloat",
+                    "Category": "FCProject_PDM",
+                    "Default": 0.0
+                }
+            }
+        },
+        "R": {
+            "Label": "R - Halbzeug (Profile/Rohmaterial)",
+            "FreeCADType": "PartDesign::Body",
+            "Prefix": "RAW",
+            "Properties": {
+                "Length": {
+                    "Type": "App::PropertyLength",
+                    "Category": "FCProject_PDM",
+                    "Default": 500.0
+                },
+                "ProfilTyp": {
+                    "Type": "App::PropertyString",
+                    "Category": "FCProject_PDM",
+                    "Default": "L-Profil-60x40"
+                },
+                "Preis": {
+                    "Type": "App::PropertyFloat",
+                    "Category": "FCProject_PDM",
+                    "Default": 0.0
+                }
+            }
+        },
+        "G": {
+            "Label": "G - Geometrie (Skelett/Referenz)",
+            "FreeCADType": "App::Part",
+            "Prefix": "SKEL",
+            "Properties": {}
+        },
+        "B": {
+            "Label": "B - Kaufteil (Purchased Component)",
+            "FreeCADType": "App::Part",
+            "Prefix": "PUR",
+            "Properties": {
+                "Bezeichnung": {
+                    "Type": "App::PropertyString",
+                    "Category": "FCProject_PDM",
+                    "Default": "Kaufteil"
+                },
+                "Hersteller": {
+                    "Type": "App::PropertyString",
+                    "Category": "FCProject_PDM",
+                    "Default": "TraceParts"
+                },
+                "Bestellnummer": {
+                    "Type": "App::PropertyString",
+                    "Category": "FCProject_PDM",
+                    "Default": "000-000"
+                },
+                "Preis": {
+                    "Type": "App::PropertyFloat",
+                    "Category": "FCProject_PDM",
+                    "Default": 0.0
+                }
+            }
+        }
+    }
+}
