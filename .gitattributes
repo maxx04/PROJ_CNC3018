@@ -1,0 +1,6 @@
+# *.FCStd ist ein ZIP-Container (FreeCAD speichert immer so, siehe tools/fcstd-diff.sh) - ohne
+# diesen Eintrag zeigt "git diff" nur "Bin X -> Y bytes". Der eigentliche Diff-Treiber
+# ("fcstd" -> tools/fcstd-diff.sh) muss pro Klon einmal lokal aktiviert werden (git liest
+# textconv-Befehle aus Sicherheitsgruenden nie aus dieser getrackten Datei):
+#   git config diff.fcstd.textconv "$(pwd)/tools/fcstd-diff.sh"
+*.FCStd diff=fcstd
