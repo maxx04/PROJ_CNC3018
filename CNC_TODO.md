@@ -1,0 +1,15 @@
+- [x] - Gehäuse für Steuerung
+- [x] - Lüftung mit Filter für Steuerung
+- [ ] - Raupe befestigen
+- [ ] - Werkstückbefestigung ausdrücken
+- [ ] - Probe fräsen
+- [ ] - Vibrationshemmende Beine für CNC Ausdrücken
+- [ ] - Schmutzschilder 
+  - [ ] Konstruieren
+  - [ ] Ausdrücken
+  - [ ] Montieren
+- [ ] Gehäuse
+	- [ ] Konstruieren
+	- [ ] Ausdrücken
+	- [ ] Montieren
+- [ ] 
